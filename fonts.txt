@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Fonts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>// -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Rubik+Beastly&display=swap" rel="stylesheet">
+
+
+</head>
+<style>
+    /* @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&family=Rubik+Beastly&display=swap'); */
+    
+    p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Neonderthaw', cursive, 'Rubik Beastly' ;
+        line-height: 5em; 
+        /* <!--line_height means he height of line that mneans the space above of the line --> */
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 0px;
+        height: 50px;
+        
+
+    }
+    #firstpara {
+        color: rgb(0,0,0);
+        /* background-color: ; */
+        text-align: center;
+        background-color: red;
+        /* text-indent: 20px; */
+        font-size: 12px;
+        width: 220px;
+        border-radius: 5px;
+        border-color: black;
+        border-style: dashed;
+        background-position: left;
+        
+        
+        
+
+    }
+    #secondpara {
+        color: rgb(0,0,0);
+        /* background-color: ; */
+        text-align: center;
+        background-color: yellow;
+        font-size: 12px;
+        border-color: black;
+        border-style: dashed;
+        /* background-position: right; */
+
+    }
+    #thirdpara {
+        color: rgb(0,0,0);
+        /* background-color: ; */
+        text-align: center;
+        /* background-color: green; */
+        font-size: 12px;
+        border-color: black;
+        /* border-style: dashed; */
+        border-style: solid;
+        width: 500px;
+        height: 500px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-image:url('download-modified.png')
+        /* background-repeat: repeat-x; */
+        /* background-repeat  :image('download-modified.png') */
+    
+        
+
+
+    }
+</style>
+<link rel="stylesheet" href="rohit.css">
+
+<body>
+    <hr>
+     <h4>Css Fonts</h4>
+     <p>Let's play with fonts </p>
+     <p id="firstpara">This is warning , please do not go </p><br><hr>
+     <p id="secondpara">You can start your engine </p><br><hr>
+     <p id="thirdpara">You can go  </p><br><hr>
+
+     
+</body>
+</html>
