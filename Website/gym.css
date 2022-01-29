@@ -1,0 +1,62 @@
+body {
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    background: url('kkk.jpg');
+    height: 4000px;
+}
+.left { 
+    color: white;
+    border: 3px solid red;
+   top: 20px;
+   left: 50px;
+    display: inline-block;
+    position: absolute;
+
+}
+
+.centre {
+    color: white;
+    border: 3px solid greenyellow;
+    display: block;
+    margin: 20px auto;
+    width: 1123px;
+    top: 20px;
+    left: 50px;
+    
+
+}
+
+.right {
+    color: white;
+    border: 3px solid green;
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    border-radius: 5px;
+    /* display: inline-block; */
+
+
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 50px ; 
+
+    /* color: white; */
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px ;
+}
+
+.navbar li a:hover   {
+    text-decoration: underline;
+    color: cyan;
+    
+}
