@@ -7,6 +7,9 @@ i<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
 
 
 
@@ -17,7 +20,14 @@ i<!DOCTYPE html>
     <header class="name">
         <!-- left button for logo -->
         <div class="left">
-            i am left
+            <div class="image">
+                <img src="dumbell.jpeg" alt="">
+                <div>Rohit Fitness</div>
+
+
+
+            </div>
+            
 
 
         </div>
@@ -37,14 +47,32 @@ i<!DOCTYPE html>
 
         <!-- some buttons -->
         <div class="right">
-            i am right
-
-
+            <button class="btn">Call us</button>
+            <button class="btn">Email us</button>
         </div>
 
 
 
     </header>
+    <div class="container">
+        <h1>Join this Gym of Delhi </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Please enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Please enter your email id ">
+            </div>
+
+            <div class="form-group">
+                <input type="text" placeholder="Please enter your phone number">
+            </div>
+            <div class="form_btn">Submit</div>
+
+        </form>
+    </div>
+
     
 </body>
 </html>
