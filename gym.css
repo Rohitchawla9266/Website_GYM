@@ -1,0 +1,164 @@
+body {
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    background: url('kkk.jpg');
+    /* height: 4000px; */
+}
+.left { 
+    color: white;
+    /* border: 3px solid red; */
+   top: 20px;
+   left: 50px;
+    display: inline-block;
+    position: absolute;
+
+}
+.left img {
+    width: 245px;
+    filter: invert(100%);
+}
+.left div {
+    line-height: 88px;
+    text-align: center;
+    font-size: 68px;
+}
+ 
+
+
+.centre {
+    color: white;
+    /* border: 3px solid greenyellow; */
+    display: block;
+    margin: 20px auto;
+    width: 1123px;
+    top: 20px;
+    left: 50px;
+    
+
+}
+
+.right {
+    color: white;
+    /* border: 3px solid green; */
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    border-radius: 5px;
+    /* display: inline-block; */
+
+
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 50px ; 
+
+    /* color: white; */
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px ;
+}
+
+.navbar li a:hover   {
+    text-decoration: underline;
+    color: cyan;
+    
+}
+.btn {
+    background-color: black;
+    color: white;
+    margin: 46px 80px;
+    padding: 23px 57px;
+    width: 290px;
+    height: 100px;
+    font-size: 37px;
+    text-align: top;
+    /* border:2px solid red;  */
+    border-radius: 10px ; 
+    cursor: pointer; /* as it makes the hand gesture when you go on the button */
+
+
+}
+.btn:hover {
+    color: turquoise;
+}
+.container {
+    color: white;
+    /* border: 2px solid white; */
+    margin: 467px 209px;
+    padding: 402px 230px;
+    width: 65%;
+    border-radius: 79px;
+    text-align: center;
+   
+
+
+}
+.form_btn {
+    background-color: black;
+    color: white;
+    margin: 54px -4px;
+    padding: 19px 59px;
+    width: 258px;
+    height: 86px;
+    font-size: 41px;
+    text-align: top;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form_btn:hover {
+    color: turquoise;
+}
+
+.form-group {
+    /* padding: 26px 22px; */
+    margin: 0px auto;
+    width: 800px;
+/* 
+    border: 2px solid red; */
+    border-radius: 17px
+
+
+
+}
+
+.form-group input {
+   text-align: center;
+    display: block;
+    width: 1413px;
+    padding: 11px 102px;
+    margin: 6px auto;
+    /* border: 2px solid gray; */
+    height: 86px;
+    font-size: 43px;
+    border-radius: 23px; 
+
+
+}
+
+.container .btn  {
+    text-align: center;
+    margin: 32px 1384px;
+    width: 1339px;
+    border: 2px solid red;
+    border-radius: 17px;
+    padding: 25px 11px;
+    display: block;
+    font-size: 94px;
+    height: 163px;
+
+}
+
+    
+
+
+
+
